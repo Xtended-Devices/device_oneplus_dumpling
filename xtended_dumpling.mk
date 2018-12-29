@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Open Source Project
+# Copyright (C) 2017 The xtendedOS Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dumpling device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xtended stuff.
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_dumpling
+PRODUCT_NAME := xtended_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -43,3 +43,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:9/PKQ1.180716.001/1812232046:user/release-keys
 
 TARGET_VENDOR := oneplus
+
+XTENDED_BUILD_TYPE := OFFICIAL
