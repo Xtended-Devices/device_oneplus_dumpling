@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "Xtended-Devices",
+    "repository": "device_oneplus_msm8998-common",
+    "target_path": "device/oneplus/msm8998-common"
+    "revision": "xq"
+  }
+]
